@@ -122,7 +122,7 @@ I order to run the unit tests just run `sail composer test`
 # Stress testing
 
 ## Vendor modification
-As I was trying to implement the stress tests, I realize the current pest-plugin-stressless vendor I use requires modification for this to work. I've created a PR in the repository. In the meantime, you can apply this simple modification locally to make it work:
+As I was trying to implement the stress tests, I realize the current pest-plugin-stressless vendor I use requires modification for this to work. [I've created a PR](https://github.com/pestphp/pest-plugin-stressless/pull/19/files) in the repository. In the meantime, you can apply this simple modification locally to make it work:
 
 Modify line 45 in `vendor\pestphp\pest-plugin-stressless\bin\run.js`:
 ```
